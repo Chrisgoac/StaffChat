@@ -1,0 +1,23 @@
+name: StaffChat
+version: 1.0.0
+main: elpupas2015.staffchat.StaffChat
+author: ELPUPAS2015
+
+commands:
+    sc:
+        aliases: [staffchat, schat, staffc]
+    staffs:
+        aliases: [staffslist]
+    clearchat:
+    screload:
+    helpop:
+        aliases: [ayuda, ayudaop, ayudadeop]
+    cspy:
+        aliases: [commandspy]
+    freeze:
+        aliases: [hielo, congelar]
+    staff:
+        aliases: [staffmode, smode, mod, modmode]
+    vanish:
+        aliases: [v]
+    report:

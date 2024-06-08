@@ -1,0 +1,65 @@
+# Variables:
+# %player% = Player name.
+# %msg% = Message.
+# %cmd% = Command.
+
+Config:
+  title-on-staffchat-message: true
+  sound-on-staffchat-message: true
+  sound: NOTE_PLING
+Messages:
+  Chat:
+    plugin-prefix: '&6&l[&e&lStaffChat&6&l]'
+    staffchat-prefix: '&6&l[&2&lSC&6&l]'
+    staffchat-format: " &8\xbb &b%player% &8\xbb &7%msg%"
+  No-perms-messages:
+    nopermission-use: '&cYou don''t have permissions &6(&7staffchat.use&6)'
+    nopermission-reload: '&cYou don''t have permissions &6(&7staffchat.reload&6)'
+    nopermission-clearchat: '&cYou don''t have permissions &6(&7staff.clearchat&6)'
+    nopermission-commandspy: '&cYou don''t have permissions &6(&7staff.commandspy&6)'
+    nopermission-freeze: '&cYou don''t have permissions &6(&7staff.freeze&6)'
+  Title:
+    staffchat-title: '&6&lS&e&ltaff&6&lC&e&lhat'
+    staffchat-subtitle: '&aNew message'
+  Enabled-and-disabled:
+    enabled-message: '&7StaffChat is now &aENABLED'
+    disabled-message: '&7StaffChat is now &cDISABLED'
+  Join-and-quit:
+    staff-join-message: '&8(&9StaffChat&8) &b%player% has joined the server.'
+    staff-quit-message: '&8(&9StaffChat&8) &b%player% has left the server.'
+  StaffOnlineGUI:
+    stafflist-inventory-name: '&6&l[&eStaff connected&6&l]'
+    stafflist-name: "&a&lSTAFF &8\xbb &e%player%"
+  ClearChat:
+    bypassed-message: '&aChat cleared by &e%player%'
+  Helpop:
+    no-message-error: '&6&l[&e&lHelpop&6&l] &cYou have to put a message.'
+    player-message:
+    - '&aYour help message has been sent correctly.'
+    - '&cThe abuse of this command can lead to a penalty.'
+    staff-message:
+    - '&7&m----------------------------'
+    - '&6Player: &c%player%'
+    - '&6Message: &c%msg%'
+    - '&7&m----------------------------'
+  CommandSpy:
+    enabled: '&6&l[&e&lCommandSpy&6&l] &7CommandSpy is now &aenabled&7.'
+    disabled: '&6&l[&e&lCommandSpy&6&l] &7CommandSpy is now &cdisabled&7.'
+    format: '&2&l[&6&lCSPY&2&l] &c%player%: &7%cd%'
+  Freeze:
+    no-correct-format: '&6&l[&b&lFreeze&6&l] &cIncorrect format &6(&7-/freeze <username>&6)'
+    succeful: '&6&l[&b&lFreeze&6&l] &aYou have successfully freezed: &c%player%'
+    no-connected: '&6&l[&b&lFreeze&6&l] &cThe player &7%player% &cis not connected.'
+    target-freezed: '&6&l[&b&lFreeze&6&l] &7You have been freezed by: &c%staff%'
+    staff-freezing: '&6&l[&b&lFreeze&6&l] &7You have successfully freezed: &a%player%'
+    target-unfreezed: '&6&l[&b&lFreeze&6&l] &7You have been unfreezed by: &c%staff%'
+    staff-unfreezing: '&6&l[&b&lFreeze&6&l] &7You have successfully unfreezed: &a%player%'
+    left-while-frozen: '&6&l[&b&lFreeze&6&l] &cThe player &7%player% &cis not connected.'
+    click-to-ban: '&6&l[&b&lFreeze&6&l] &7Click here to ban.'
+    ban-command: /ban %player% Left while frozen
+  StaffMode:
+    tp-random-player: '&6&l[&b&lStaffMode&6&l] &7You teleported to: %player%.'
+    staff-activated: '&6&l[&b&lStaffMode&6&l] &7StaffMode is now &aENABLED&7.'
+    staff-disabled: '&6&l[&b&lStaffMode&6&l] &7StaffMode is now &cDISABLED&7.'
+    vanish-activated: '&6&l[&b&lStaffMode&6&l] &7Vanish is now &aENABLED&7.'
+    vanish-disabled: '&6&l[&b&lStaffMode&6&l] &7Vanish is now &cDISABLED&7.'
